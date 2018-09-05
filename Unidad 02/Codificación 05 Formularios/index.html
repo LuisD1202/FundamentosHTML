@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="autor" content="Luis Dominguez">
+    <meta name="keywords" content="Noticias,NEWS,Next,University,Programs">
+    <meta name="description" content="Noticias NEXT University">
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+    <h1>Registro en nuestra Tienda</h1>
+    <form class="" autocomplete="on" name="Mi primer formulario">
+      <p><label for="username">Nombre</label><br>
+      <input type="text" name="username" placeholder="Ingresa tu Nombre" required autofocus>
+      </p>
+      <p><label for="age">Edad</label><br>
+      <input type="number" name="age"placeholder="Ingresa tu edad" required>
+      </p>
+      <p><label for="date_birth">Fecha de Nacimiento</label><br>
+      <input type="date" name="age" required>
+      </p>
+      <p><label for="email">Email</label><br>
+      <input type="email" name="email" placeholder="Ingresa tu edad" required >
+      </p>
+
+      <p>Genero <br>
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <input type="radio" name="genero" value="Femenino">Femenino
+      </p>
+
+      <p><label for="recomendado">Recomendado por:</label> <br>
+      <select name="recomendado">
+        <option value="1">Google</option>
+        <option value="2">Amigo</option>
+        <option value="3">Redes Sociales</option>
+        <option value="4">Otro</option>
+      </select>
+      </p>
+
+      <p><label for="comments">Comentarios</label><br>
+        <textarea name="comments" id="" rows="3" cols="30" placeholder="Ingresa tus comentarios"></textarea>
+      </p>
+
+      <p><label for="accept">Acepta los Terminos y condiciónes </label><br>
+        <input type="checkbox" name="accept" value="" required>
+      </p>
+
+      <p>
+        <input type="submit" name="send" value="Registrar">
+      </p>
+    </form>
+  </body>
+</html>
