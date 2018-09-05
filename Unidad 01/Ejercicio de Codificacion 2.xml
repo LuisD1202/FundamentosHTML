@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="1" fecha="27-08-18">
+	<cliente>
+		<nombre>Luis Manuel</nombre>
+		<apellidos>Dominguez G</apellidos>
+		<telefono>7793217</telefono>
+	</cliente>
+	<articulos>
+		<articulo id="1">
+			<descripcion>Pantalon</descripcion>
+			<precio-unitario>100</precio-unitario>
+			<precio-final>150</precio-final>
+			<cantidad>1</cantidad>
+		</articulo>
+		<articulo id="2">
+			<descripcion>Camisa</descripcion>
+			<precio-unitario>50</precio-unitario>
+			<precio-final>75</precio-final>
+			<cantidad>1</cantidad>
+		</articulo>
+	</articulos>
+	<precio-total>225</precio-total>
+</factura>
